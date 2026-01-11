@@ -1,0 +1,63 @@
+:root {
+  --bg: #f6f1ee;
+  --card: #ffffff;
+  --text: #3a3a3a;
+  --accent: #c8a2c8;
+  --accent-hover: #b48fb4;
+}
+
+body.dark {
+  --bg: #2a2a2a;
+  --card: #3a3a3a;
+  --text: #f2f2f2;
+  --accent: #d6b4d6;
+  --accent-hover: #c49bc4;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: var(--bg);
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text);
+  transition: 0.3s;
+}
+
+.container {
+  background: var(--card);
+  padding: 40px 50px;
+  border-radius: 18px;
+  width: 700px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+button {
+  padding: 12px 22px;
+  margin: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  background: var(--accent);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: var(--accent-hover);
+  transform: scale(1.05);
+}
+
+#timer {
+  font-size: 48px;
+  margin: 12px 0;
+}
+
+#sessions {
+  font-size: 40px;
+  color: var(--accent);
+}

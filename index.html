@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Mood Based Study Habit Tracker Using Pomodoro Technique</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mood-Based Study Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>📘 Mood-Based Study Assistant</h1>
+
+    <h3>Select Your Mood</h3>
+    <button onclick="setMood('tired')">😴 Tired</button>
+    <button onclick="setMood('normal')">😐 Normal</button>
+    <button onclick="setMood('motivated')">🔥 Motivated</button>
+
+    <p id="lastMood">Last selected mood: None</p>
+
+    <label>
+      <input type="checkbox" id="voiceToggle" checked>
+      Calm Voice Assistant ON
+    </label>
+
+    <h2 id="mode">Study Time</h2>
+    <div id="timer">25:00</div>
+
+    <button onclick="startTimer()">Start</button>
+    <button onclick="resetTimer()">Reset</button>
+
+    <h3>Study Sessions Completed Today</h3>
+    <div id="sessions">0</div>
+
+    <p id="progressMsg"></p>
+
+    <button onclick="toggleTheme()">🌗 Dark / Light</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
